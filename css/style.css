@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+
+.letras{
+    font-family:cursive;
+    font-size: 390%;
+    color: #e788d7;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.05em #797979;
+}
+
+.carrossel{
+    width: 740px;
+    height: 240px;
+    overflow: hidden;
+    border: 15px #797979;
+}
