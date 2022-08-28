@@ -1,19 +1,58 @@
 body{
-    background-color: antiquewhite;
+    background-color: #0c215a;
 }
 
 .letras{
     font-family:cursive;
     font-size: 390%;
-    color: #e788d7;
+    color: #9d88e7 ;
     font-style: oblique;
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.05em #797979;
+    text-shadow: 0.1em 0.1em 0.05em #7916b3;
+}
+
+.lovely{
+    width: 628px;
+    height: 392px;
 }
 
 .carrossel{
-    width: 740px;
-    height: 240px;
+    border: solid #9d88e7 5px;
+    border-radius: 10px;
+    width: 640px;
+    height: 360px;
     overflow: hidden;
-    border: 15px #797979;
+}
+
+.carrossel .fotos{
+    width: 1100%; 
+    animation: animacao 20s infinite;
+}
+
+.carrossel .fotos img{
+    width: 636px;
+}
+
+@keyframes animacao{
+    0%{margin-left : 0;}
+    8%{margin-left: 0;}
+    10%{margin-left: -100%;}
+    18%{margin-left: -100%;}
+    20%{margin-left: -200%;}
+    28%{margin-left: -200%;}
+    30%{margin-left: -300%;}
+    38%{margin-left: -300%}
+    40%{margin-left: -400%}
+    48%{margin-left: -400%}
+    50%{margin-left: -500%}
+    58%{margin-left: -500%}
+    60%{margin-left: -600%}
+    68%{margin-left: -600%}
+    70%{margin-left: -700%}
+    78%{margin-left: -700%}
+    80%{margin-left: -800%}
+    88%{margin-left: -800%}
+    90%{margin-left: -900%}
+    98%{margin-left: -900%}     
+    100%{margin-left: -1000%;}
 }
